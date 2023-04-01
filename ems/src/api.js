@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "http://localhost:8000/",
+  baseURL: "https://shantanu-ems.vercel.app/",
 });
 
 export default http;
